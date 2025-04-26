@@ -95,18 +95,6 @@ client.close();
 
 For more detailed examples, please see the `a2a4j-examples` module.
 
-## Usage
-
-<!-- TODO: Expand on basic usage patterns, configuration options, etc. -->
-
-### Server Configuration
-
-<!-- TODO: Explain how to configure the server (e.g., port, storage backend via application.properties/yml) -->
-
-### Client Configuration
-
-<!-- TODO: Explain how to configure the client (e.g., target URL, timeouts) -->
-
 ### Storage
 
 The server supports pluggable storage for tasks:
@@ -114,11 +102,6 @@ The server supports pluggable storage for tasks:
 *   **Redis:** Requires Redis configuration (See `a2a4j-storage-redis`).
 
 <!-- TODO: Explain how to select/configure storage -->
-
-## API Documentation
-
-*   **Server API (OpenAPI):** Available at `/swagger-ui.html` when the server is running.
-*   **Javadoc:** [Link to hosted Javadoc] <!-- TODO: Add link to generated Javadoc -->
 
 ## Project Structure
 
