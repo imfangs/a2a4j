@@ -1,0 +1,80 @@
+{
+  "groups": [
+    {
+      "name": "a2a",
+      "type": "org.a2a4j.spring.A2AProperties",
+      "sourceType": "org.a2a4j.spring.A2AProperties"
+    },
+    {
+      "name": "a2a.server",
+      "type": "org.a2a4j.spring.A2AProperties$Server",
+      "sourceType": "org.a2a4j.spring.A2AProperties",
+      "sourceMethod": "getServer()"
+    },
+    {
+      "name": "a2a.client",
+      "type": "org.a2a4j.spring.A2AProperties$Client",
+      "sourceType": "org.a2a4j.spring.A2AProperties",
+      "sourceMethod": "getClient()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "a2a.server.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Whether the A2A server is enabled.",
+      "sourceType": "org.a2a4j.spring.A2AProperties$Server",
+      "defaultValue": true
+    },
+    {
+      "name": "a2a.server.auto-start",
+      "type": "java.lang.Boolean",
+      "description": "Whether to automatically start the server on application startup.",
+      "sourceType": "org.a2a4j.spring.A2AProperties$Server",
+      "defaultValue": true
+    },
+    {
+      "name": "a2a.server.host",
+      "type": "java.lang.String",
+      "description": "The hostname or IP address to bind to.",
+      "sourceType": "org.a2a4j.spring.A2AProperties$Server",
+      "defaultValue": "0.0.0.0"
+    },
+    {
+      "name": "a2a.server.port",
+      "type": "java.lang.Integer",
+      "description": "The port number to listen on.",
+      "sourceType": "org.a2a4j.spring.A2AProperties$Server",
+      "defaultValue": 5000
+    },
+    {
+      "name": "a2a.server.endpoint",
+      "type": "java.lang.String",
+      "description": "The endpoint path for the server.",
+      "sourceType": "org.a2a4j.spring.A2AProperties$Server",
+      "defaultValue": "/"
+    },
+    {
+      "name": "a2a.server.name",
+      "type": "java.lang.String",
+      "description": "The name of the agent.",
+      "sourceType": "org.a2a4j.spring.A2AProperties$Server",
+      "defaultValue": "Java A2A Agent"
+    },
+    {
+      "name": "a2a.server.description",
+      "type": "java.lang.String",
+      "description": "The description of the agent.",
+      "sourceType": "org.a2a4j.spring.A2AProperties$Server",
+      "defaultValue": "A Java implementation of the A2A protocol"
+    },
+    {
+      "name": "a2a.client.server-url",
+      "type": "java.lang.String",
+      "description": "The base URL of the server to connect to.",
+      "sourceType": "org.a2a4j.spring.A2AProperties$Client",
+      "defaultValue": "http://localhost:5000"
+    }
+  ],
+  "hints": []
+} 
