@@ -2,8 +2,6 @@
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) <!-- TODO: Add other badges (build status, coverage, maven central) -->
 
-**Project Status:** [Alpha] <!-- TODO: Update project status -->
-
 ## Overview
 
 A2A-4J is a Java implementation of the Agent-to-Agent (A2A) protocol. The A2A protocol facilitates standardized communication between AI agents, enabling them to exchange tasks, messages, and artifacts.
